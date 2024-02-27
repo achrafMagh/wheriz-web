@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import SocketIOClient from "socket.io-client";
+import "regenerator-runtime/runtime";
 
 import SpeechRecognition, {
   useSpeechRecognition,
